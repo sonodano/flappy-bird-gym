@@ -38,8 +38,8 @@ short_description = "An OpenAI gym environment for the Flappy Bird game."
 REQUIRED_PACKAGES = [
     # "gym ~= 0.18.0",
     "gymnasium >= 0.27.1",
-    "numpy => 1.21.0", # ~= 1.19.5",
-    "pygame => 2.0.1" # ~= 2.0.1",
+    "numpy >= 1.21.0", # ~= 1.19.5",
+    "pygame >= 2.0.1" # ~= 2.0.1",
 ]
 
 # Packages which are only needed for testing code.
