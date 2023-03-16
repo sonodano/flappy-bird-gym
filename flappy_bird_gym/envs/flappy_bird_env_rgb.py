@@ -26,7 +26,7 @@ RBG-arrays representing the game's screen as observations.
 
 from typing import Dict, Tuple, Optional, Union
 
-import gym
+import gymnasium as gym
 import numpy as np
 import pygame
 

@@ -26,7 +26,7 @@ numerical information about the game's state as observations.
 
 from typing import Dict, Tuple, Optional, Union
 
-import gym
+import gymnasium as gym
 import numpy as np
 import pygame
 

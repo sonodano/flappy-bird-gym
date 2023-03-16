@@ -36,10 +36,10 @@ from flappy_bird_gym.envs.flappy_bird_env_simple import FlappyBirdEnvSimple
 from flappy_bird_gym import original_game
 
 # Exporting gym.make:
-from gym import make
+from gymnasium import make
 
 # Registering environments:
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 
 register(
     id="FlappyBird-v0",
